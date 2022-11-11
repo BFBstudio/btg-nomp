@@ -1,0 +1,18 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1668165901627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1668165901627,
+            "name": "Commit-0",
+            "content": "{\r\n  \"name\": \"z-nomp\",\r\n  \"version\": \"0.0.4\",\r\n  \"description\": \"Bitcoin Gold (Equihash) stratum mining pool based on NOMP\",\r\n  \"keywords\": [\r\n    \"stratum\",\r\n    \"mining\",\r\n    \"pool\",\r\n    \"server\",\r\n    \"poolserver\",\r\n    \"zclassic\",\r\n    \"zcash\",\r\n    \"equihash\"\r\n  ],\r\n  \"homepage\": \"https://github.com/zencashio/z-nomp\",\r\n  \"bugs\": {\r\n    \"url\": \"https://github.com/zencashio/z-nomp/issues\"\r\n  },\r\n  \"license\": \"MIT\",\r\n  \"author\": \"Joshua Yabut\",\r\n  \"contributors\": [\r\n    \"aayanl\",\r\n    \"sennevb\",\r\n    \"Matthew Little\",\r\n    \"vekexasia\",\r\n    \"TheSeven\"\r\n  ],\r\n  \"main\": \"init.js\",\r\n  \"bin\": {\r\n    \"block-notify\": \"./scripts/blockNotify.js\"\r\n  },\r\n  \"repository\": {\r\n    \"type\": \"git\",\r\n    \"url\": \"https://github.com/zencashio/z-nomp.git\"\r\n  },\r\n  \"dependencies\": {\r\n    \"async\": \"^2.5.0\",\r\n    \"bignum\": \"^0.12.5\",\r\n    \"body-parser\": \"^1.18.2\",\r\n    \"colors\": \"^1.1.2\",\r\n    \"compression\": \"^1.7.1\",\r\n    \"dateformat\": \"^2.2.0\",\r\n    \"dot\": \"^1.1.2\",\r\n    \"equihashjs-verify\": \"^1.0.5\",\r\n    \"express\": \"^4.16.2\",\r\n    \"extend\": \"^3.0.1\",\r\n    \"mysql\": \"^2.15.0\",\r\n    \"node-json-minify\": \"^1.0.0\",\r\n    \"node-watch\": \"^0.5.5\",\r\n    \"nonce\": \"^1.0.4\",\r\n    \"redis\": \"^2.8.0\",\r\n    \"request\": \"^2.83.0\",\r\n    \"stratum-pool\": \"git+https://github.com/SpiritedAwayLab/node-stratum-pool-btg.git\"\r\n  },\r\n  \"engines\": {\r\n    \"node\": \">=0.10\"\r\n  },\r\n  \"scripts\": {\r\n    \"start\": \"LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD/node_modules/stratum-pool/node_modules/equihashverify/build/Release/:$PWD/node_modules/equihashverify/build/Release/ node init.js\"\r\n  }\r\n}\r\n"
+        }
+    ]
+}
